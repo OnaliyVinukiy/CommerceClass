@@ -118,189 +118,195 @@ export default function Home() {
         </div>
         <div class="flex flex-wrap justify-center gap-4">
           <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-4">
-            <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
-              Standard plan
+            <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
+              2025 O/L English Medium
             </h5>
-            <div class="flex items-baseline text-gray-900 dark:text-white">
-              <span class="text-3xl font-semibold">$</span>
-              <span class="text-5xl font-extrabold tracking-tight">49</span>
-              <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                /month
-              </span>
-            </div>
-            <ul role="list" class="space-y-5 my-7">
+            
+            <ul role="list" class="space-y-5 my-7 mt-10">
               <li class="flex items-center">
-                <svg
-                  class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                </svg>
-                <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                  2 team members
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                 Group Class
                 </span>
               </li>
               <li class="flex">
-                <svg
-                  class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                </svg>
-                <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                  20GB Cloud storage
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  6.00 PM - 8.00 PM
                 </span>
               </li>
               <li class="flex">
-                <svg
-                  class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                </svg>
-                <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                  Integration help
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  Every Saturday
                 </span>
               </li>
             </ul>
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
+              class="text-white bg-blue-800 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-50 text-center"
             >
-              Choose plan
+              Join Now
             </button>
           </div>
           <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-4">
-            <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
-              Standard plan
+            <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
+              2025 O/L Sinhala Medium
             </h5>
-            <div class="flex items-baseline text-gray-900 dark:text-white">
-              <span class="text-3xl font-semibold">$</span>
-              <span class="text-5xl font-extrabold tracking-tight">49</span>
-              <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                /month
-              </span>
-            </div>
-            <ul role="list" class="space-y-5 my-7">
+            
+            <ul role="list" class="space-y-5 my-7 mt-10">
               <li class="flex items-center">
-                <svg
-                  class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                </svg>
-                <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                  2 team members
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                 Group Class
                 </span>
               </li>
               <li class="flex">
-                <svg
-                  class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                </svg>
-                <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                  20GB Cloud storage
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  6.00 PM - 8.00 PM
                 </span>
               </li>
               <li class="flex">
-                <svg
-                  class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                </svg>
-                <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                  Integration help
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  Every Wednesday
                 </span>
               </li>
             </ul>
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
+              class="text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-200 dark:bg-yellow-400 dark:hover:bg-yellow-500 dark:focus:ring-yellow-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-50 text-center"
             >
-              Choose plan
+              Join Now
             </button>
           </div>
           <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-4">
-            <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
-              Standard plan
+            <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
+              2026 O/L English Medium
             </h5>
-            <div class="flex items-baseline text-gray-900 dark:text-white">
-              <span class="text-3xl font-semibold">$</span>
-              <span class="text-5xl font-extrabold tracking-tight">49</span>
-              <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                /month
-              </span>
-            </div>
-            <ul role="list" class="space-y-5 my-7">
+            
+            <ul role="list" class="space-y-5 my-7 mt-10">
               <li class="flex items-center">
-                <svg
-                  class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                </svg>
-                <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                  2 team members
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                 Group Class
                 </span>
               </li>
               <li class="flex">
-                <svg
-                  class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                </svg>
-                <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                  20GB Cloud storage
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  6.00 PM - 8.00 PM
                 </span>
               </li>
               <li class="flex">
-                <svg
-                  class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                </svg>
-                <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                  Integration help
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  Every Thursday
                 </span>
               </li>
             </ul>
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
+              class="text-white bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-200 dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-50 text-center"
             >
-              Choose plan
+              Join Now
+            </button>
+          </div>
+          <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-4">
+            <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
+              2026 O/L Sinhala Medium
+            </h5>
+            
+            <ul role="list" class="space-y-5 my-7 mt-10">
+              <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                 Group Class
+                </span>
+              </li>
+              <li class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  6.00 PM - 8.00 PM
+                </span>
+              </li>
+              <li class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  Every Saturday
+                </span>
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="text-white bg-yellow-700 hover:bg-yellow-800 focus:ring-4 focus:outline-none focus:ring-yellow-200 dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-50 text-center"
+            >
+              Join Now
+            </button>
+          </div>
+          <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-4">
+            <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
+              2025 A/L English Medium
+            </h5>
+            
+            <ul role="list" class="space-y-5 my-7 mt-10">
+              <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                 Group Class
+                </span>
+              </li>
+              <li class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  6.00 PM - 8.00 PM
+                </span>
+              </li>
+              <li class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  Every Saturday
+                </span>
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-200 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-50 text-center"
+            >
+              Join Now
+            </button>
+          </div>
+          <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-4">
+            <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
+              2025 A/L Sinhala Medium
+            </h5>
+            
+            <ul role="list" class="space-y-5 my-7 mt-10">
+              <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                 Group Class
+                </span>
+              </li>
+              <li class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  6.00 PM - 8.00 PM
+                </span>
+              </li>
+              <li class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  Every Saturday
+                </span>
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-200 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-50 text-center"
+            >
+              Join Now
             </button>
           </div>
         </div>
