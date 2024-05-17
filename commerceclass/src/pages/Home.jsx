@@ -65,7 +65,7 @@ export default function Home() {
           </Carousel>
         </div>
       </div>
-      <section class="bg-white dark:bg-gray-900">
+      <section class="bg-white dark:bg-gray-900" id="about">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
@@ -95,7 +95,7 @@ export default function Home() {
             </a>
             <a
               href="#"
-              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 mt-2"
             >
               Contact Mevan Sir
             </a>
@@ -108,32 +108,46 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
-     <br/>
-      <div className="flex justify-center space-x-8 mt-10">
-      <div className="w-64 h-64 rounded-full bg-blue-800 glow flex items-center justify-center">
-        <span className="text-white text-3xl text-center font-bold">100%<br/>Pass Rate</span>
-      </div>
-      <div className="w-64 h-64 rounded-full bg-red-700 glow flex items-center justify-center">
-        <span className="text-white text-3xl text-center font-bold">10+ Years <br/> Service</span>
-      </div>
-      <div className="w-64 h-64 rounded-full bg-green-800 glow flex items-center justify-center">
-        <span className="text-white text-3xl text-center font-bold">500+ <br/> Students Educated</span>
-      </div>
-      <div className="w-64 h-64 rounded-full bg-purple-700 glow flex items-center justify-center">
-        <span className="text-white text-3xl text-center font-bold">Experienced<br/> Government Teacher</span>
-      </div>
-    </div>
-
+      <section id="portfolio">
+        <br />
+        <div class="flex flex-wrap justify-center mt-10">
+          <div class="w-64 h-64 md:w-10 md:h-10 rounded-full bg-blue-800 glow flex items-center justify-center mb-8 md:mb-0 md:mr-8 mx-4 ">
+            <span class="text-white text-3xl text-center font-bold">
+              100%
+              <br />
+              Pass Rate
+            </span>
+          </div>
+          <div class="w-64 h-64 md:w-10 md:h-10 rounded-full bg-red-700 glow flex items-center justify-center mb-8 md:mb-0 md:mr-8 mx-4">
+            <span class="text-white text-3xl text-center font-bold">
+              10+ Years <br /> Service
+            </span>
+          </div>
+          <div class="w-64 h-64 md:w-10 md:h-10 rounded-full bg-green-800 glow flex items-center justify-center mb-8 md:mb-0 md:mr-8 mx-4">
+            <span class="text-white text-3xl text-center font-bold">
+              500+ <br /> Students Educated
+            </span>
+          </div>
+          <div class="w-64 h-64 md:w-10 md:h-10 rounded-full bg-purple-700 glow flex items-center justify-center mb-8 md:mb-0 md:mr-8 mx-4">
+            <span class="text-white text-3xl text-center font-bold">
+              Experienced
+              <br /> Government Teacher
+            </span>
+          </div>
+        </div>
       </section>
-      <section>
-        <br/><br/><br/>
+
+      <section id="timetable">
+        <br />
+        <br />
+        <br />
         <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12 mt-10">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-           Check out the Class Timetable
+            Check out the Class Timetable
           </h2>
           <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-            Your Academic and Life Success Starts Here!<br/> Join Now for Efficient and Effective Learning!
+            Your Academic and Life Success Starts Here!
+            <br /> Join Now for Efficient and Effective Learning!
           </p>
         </div>
         <div class="flex flex-wrap justify-center gap-4">
@@ -141,22 +155,65 @@ export default function Home() {
             <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
               2025 O/L English Medium
             </h5>
-            
+
             <ul role="list" class="space-y-5 my-7 mt-10">
               <li class="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                 Group Class
+                  Group Class
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   6.00 PM - 8.00 PM
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   Every Saturday
                 </span>
@@ -173,22 +230,65 @@ export default function Home() {
             <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
               2025 O/L Sinhala Medium
             </h5>
-            
+
             <ul role="list" class="space-y-5 my-7 mt-10">
               <li class="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                 Group Class
+                  Group Class
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   6.00 PM - 8.00 PM
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   Every Wednesday
                 </span>
@@ -205,22 +305,65 @@ export default function Home() {
             <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
               2026 O/L English Medium
             </h5>
-            
+
             <ul role="list" class="space-y-5 my-7 mt-10">
               <li class="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                 Group Class
+                  Group Class
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   6.00 PM - 8.00 PM
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   Every Thursday
                 </span>
@@ -237,22 +380,65 @@ export default function Home() {
             <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
               2026 O/L Sinhala Medium
             </h5>
-            
+
             <ul role="list" class="space-y-5 my-7 mt-10">
               <li class="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                 Group Class
+                  Group Class
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   6.00 PM - 8.00 PM
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   Every Saturday
                 </span>
@@ -269,22 +455,65 @@ export default function Home() {
             <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
               2025 A/L English Medium
             </h5>
-            
+
             <ul role="list" class="space-y-5 my-7 mt-10">
               <li class="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                 Group Class
+                  Group Class
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   6.00 PM - 8.00 PM
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   Every Saturday
                 </span>
@@ -301,22 +530,65 @@ export default function Home() {
             <h5 class="mb-4 text-2xl font-medium text-black-500 dark:text-gray-400">
               2025 A/L Sinhala Medium
             </h5>
-            
+
             <ul role="list" class="space-y-5 my-7 mt-10">
               <li class="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
-                 Group Class
+                  Group Class
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   6.00 PM - 8.00 PM
                 </span>
               </li>
               <li class="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
                 <span class="text-base font-normal text-lg leading-tight text-gray-500 dark:text-gray-400 ms-3">
                   Every Saturday
                 </span>
@@ -331,54 +603,129 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
-      <section class="bg-white dark:bg-gray-900">
-      <div class="flex flex-wrap justify-center gap-4">
-  <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
-      <p class="mb-8 lg:mb-12 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Need to join my Commerce Class? Or need to know more information? Please contact me for any inquiries.</p>
-      
+      <section id="contact">
+        <section class="bg-white dark:bg-gray-900">
+          <div class="flex flex-wrap justify-center gap-4">
+            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+              <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+                Contact Me
+              </h2>
+              <p class="mb-8 lg:mb-12 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+                Need to join my Commerce Class? Or need to know more
+                information? Please contact me for any inquiries.
+              </p>
 
-      <div class="flex flex-wrap justify-center gap-4">
-  
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <div class="flex justify-end px-4 pt-4">
-        <button id="dropdownButton" data-dropdown-toggle="dropdown" class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5" type="button">
-            <span class="sr-only">Open dropdown</span>
-            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 3">
-                <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z"/>
-            </svg>
-        </button>
-       
-        <div id="dropdown" class="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-            <ul class="py-2" aria-labelledby="dropdownButton">
-            <li>
-                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Export Data</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete</a>
-            </li>
-            </ul>
-        </div>
-    </div>
-    <div class="flex flex-col items-center pb-10">
-        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image"/>
-        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
-        <span class="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
-        <div class="flex mt-4 md:mt-6">
-            <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add friend</a>
-            <a href="#" class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Message</a>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-</div>
-</section>
+              <div class="flex flex-wrap justify-center gap-4">
+                <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                  <div class="flex justify-end px-4 pt-4 mt-4"></div>
+                  <div class="flex flex-col items-center pb-10">
+                    <img
+                      class="w-24 h-24 mb-3 rounded-full shadow-lg"
+                      src="https://raw.githubusercontent.com/OnaliyVinukiy/CommerceClass/main/commerceclass/src/pages/sir.jpeg"
+                      alt="Mevan Sir image"
+                    />
+                    <h5 class="mb-1 text-2xl font-semibold text-gray-900 dark:text-white">
+                      මෙවන් සර්
+                    </h5>
+                    <div class="sirname">
+                      <span class="text-lg font-semibold text-gray-500 dark:text-gray-400">
+                        උත්තර පත්‍ර පරික්ෂක
+                      </span>
+                    </div>
+                    <div class="sirname">
+                      <span class="text-lg font-semibold text-gray-500 dark:text-gray-400">
+                        පාඨශාලා ආචාර්ය
+                      </span>
+                    </div>
+                    <span class="text-lg text-center font-medium text-gray-500 dark:text-gray-400">
+                      MHRM, B.BA (HRM) sp - UoC
+                    </span>
+                    <span class="text-lg text-center font-medium text-gray-500 dark:text-gray-400">
+                      National Diploma in Psychological Counselling - SLFI
+                    </span>
+                    <div class="flex mt-4 md:mt-6">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="#000000"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                      </svg>
+
+                      <span class="text-lg font-medium text-black-500 dark:text-gray-400 mx-4">
+                        +94 77 876 6288
+                      </span>
+                    </div>
+                    <div class="flex mt-2 md:mt-4">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="#000000"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <circle cx="12" cy="10" r="3" />
+                        <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z" />
+                      </svg>
+
+                      <span class="text-lg text-center font-medium text-black-500 dark:text-gray-400">
+                        Ja Ela - Kanuwa
+                        <br />A Safe Place to Learn
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
+      <section>
+  <footer class="bg-gray-400 shadow dark:bg-gray-900">
+    <div class="w-full max-w-screen-xl mx-auto py-8 md:py-8">
+      <div class="flex flex-col items-center justify-between sm:flex-row sm:items-center">
+        <a
+          href="#"
+          class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+        >
+          <img src="https://raw.githubusercontent.com/OnaliyVinukiy/CommerceClass/main/commerceclass/src/components/logo.jpg" class="h-8" alt="Mevan Sir" />
+          <div class="nametag">
+            <span class="self-center text-3xl whitespace-nowrap dark:text-white ml-2">Mevan Sir</span>
+          </div>
+        </a>
+        <ul class="flex flex-col sm:flex-row flex-wrap items-center mb-6 text-sm font-medium text-black-500 dark:text-gray-400">
+          <li class="mb-2 sm:mb-0 sm:mr-6 mx-4">
+            <a href="#" class="hover:underline text-black">Home</a>
+          </li>
+          <li class="mb-2 sm:mb-0 sm:mr-6 mx-4">
+            <a href="#about" class="hover:underline text-black">About</a>
+          </li>
+          <li class="mb-2 sm:mb-0 sm:mr-6 mx-4">
+            <a href="#portfolio" class="hover:underline text-black">Portfolio</a>
+          </li>
+          <li class="mb-2 sm:mb-0 mx-4">
+            <a href="#contact" class="hover:underline text-black">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 text-center dark:text-gray-400">
+        The Best Commerce Class
+      </span>
+    </div>
+  </footer>
+</section>
+
     </div>
   );
 }
