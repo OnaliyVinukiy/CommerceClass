@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "flowbite-react";
 import Header from "../components/Header";
 import { useEffect, useState } from "react";
+
 // Assuming the Header component is in a file named Header.js inside a directory named components
 
 export default function Home() {
@@ -108,6 +109,25 @@ export default function Home() {
         </div>
       </section>
       <section>
+     <br/>
+      <div className="flex justify-center space-x-8 mt-10">
+      <div className="w-64 h-64 rounded-full bg-blue-800 glow flex items-center justify-center">
+        <span className="text-white text-3xl text-center font-bold">100%<br/>Pass Rate</span>
+      </div>
+      <div className="w-64 h-64 rounded-full bg-red-700 glow flex items-center justify-center">
+        <span className="text-white text-3xl text-center font-bold">10+ Years <br/> Service</span>
+      </div>
+      <div className="w-64 h-64 rounded-full bg-green-800 glow flex items-center justify-center">
+        <span className="text-white text-3xl text-center font-bold">500+ <br/> Students Educated</span>
+      </div>
+      <div className="w-64 h-64 rounded-full bg-purple-700 glow flex items-center justify-center">
+        <span className="text-white text-3xl text-center font-bold">Experienced<br/> Government Teacher</span>
+      </div>
+    </div>
+
+      </section>
+      <section>
+        <br/><br/><br/>
         <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12 mt-10">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
            Check out the Class Timetable
@@ -310,6 +330,29 @@ export default function Home() {
             </button>
           </div>
         </div>
+      </section>
+      <section>
+      <section class="bg-white dark:bg-gray-900">
+  <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
+      <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+      <form action="#" class="space-y-8">
+          <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required/>
+          </div>
+          <div>
+              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+              <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required/>
+          </div>
+          <div class="sm:col-span-2">
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+          </div>
+          <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+      </form>
+  </div>
+</section>
       </section>
     </div>
   );
